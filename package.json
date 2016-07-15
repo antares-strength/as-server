@@ -1,0 +1,56 @@
+{
+  "name": "as-server",
+  "version": "0.0.1",
+  "description": "Antares Strength Server",
+  "main": "app/app.js",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "git@github.com:antares-strength/as-server.git"
+  },
+  "scripts": {
+    "start": "node startup.js",
+    "test": "gulp all-tests",
+    "test:ut": "gulp ut-tests",
+    "test:api": "gulp api-tests"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.1",
+    "bunyan": "^1.8.1",
+    "connect-flash": "^0.1.1",
+    "express-session": "^1.14.0",
+    "fs-extra": "^0.29.0",
+    "lamb": "^0.23.0",
+    "mongodb": "^2.2.1",
+    "mongoose": "^4.5.4",
+    "npm": "^3.10.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "restify": "^4.1.1",
+    "restify-cookies": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.4.3",
+    "istanbul-combine": "^0.3.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.1",
+    "mocha": "^2.5.3",
+    "run-sequence": "^1.1.5",
+    "sinon": "^1.17.4",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.2.0"
+  },
+  "author": "Daniel Figueiredo",
+  "license": "ISC"
+}
